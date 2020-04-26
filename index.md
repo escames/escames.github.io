@@ -10,26 +10,25 @@ Melhor organização da UNICAMP [ESF](http://limeira.esf.org.br/)
   </script>
 </head>
 
-<head>
-<script type="text/javascript">
-function countDown(secs) {
-    var btn = document.getElementById('btn');
-    btn.value = "Aguarde "+secs+" segundos";<!--texto que aparecerá enquanto o tempo descer, não altere o"+secs+"-->
-    if(secs < 1) {
-        clearTimeout(timer);
-        btn.disabled = false;
-        btn.value = 'OK clique aqui';
-    }
-    secs--;
-    var timer = setTimeout('countDown('+secs+')',1000);
-}
-</script>
-</head>
-<body>
-<input disabled type="submit" id="btn" value="Aguarde 50 segundos!"><!--texto inicial do botão-->
-<script type="text/javascript">countDown(50);<!--texto inicial do botão-->
-</script>
-</body>
+<div id="pomodoro-app">
+  <div id="container">
+    <div id="timer">
+      <div id="time">
+        <span id="minutes">25</span>
+        <span id="colon">:</span>
+        <span id="seconds">00</span>
+      </div>
+      <div id="filler"></div>
+    </div>
+
+    <div id="buttons">
+      <button id="work">Work</button>
+      <button id="shortBreak">Short Break</button>
+      <button id="longBreak">Long Break</button>
+      <button id="stop">Stop</button>
+    </div>
+  </div>
+</div>
 
 ### Support or Contact
 
