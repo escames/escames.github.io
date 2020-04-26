@@ -21,7 +21,7 @@ function countDown(secs) {
         btn.value = 'OK clique aqui';
     }
     secs--;
-    var timer = setTimeout('countDown('+secs+')',1000);
+    var timer = setTimeout('countDown('+secs+')',100);
 }
 </script>
 </head>
