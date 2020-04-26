@@ -21,12 +21,12 @@ function countDown(secs) {
         btn.value = 'OK clique aqui';
     }
     secs--;
-    var timer = setTimeout('countDown('+secs+')',100);
+    var timer = setTimeout('countDown('+secs+')',1000);
 }
 </script>
 </head>
 <body>
-<input disabled type="submit" id="btn" value="Aguarde 60 segundos!"><!--texto inicial do botão-->
+<input disabled type="submit" id="btn" value="Aguarde 50 segundos!"><!--texto inicial do botão-->
 <script type="text/javascript">countDown(60);<!--texto inicial do botão-->
 </script>
 </body>
