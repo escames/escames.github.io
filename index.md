@@ -10,94 +10,34 @@ Melhor organização da UNICAMP [ESF](http://limeira.esf.org.br/)
   </script>
 </head>
 
-<!DOCTYPE html>
+	<section class="showcase">
+			<div class="video-container">
+				<video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+			</div>
+			<div class="content">
+				<h1>Shoot For The Stars</h1>
+				<h3>Full screen video landing page</h3>
+				<a href="#about" class="btn">Read More</a>
+			</div>
+		</section>
 
-<html>
+		<section id="about">
+			<h1>About</h1>
+			<p>
+				This is a landing page with a full screen video background. Feel free to
+				use this landing page in your projects. keep adding sections, change the
+				video, content , etc
+			</p>
 
-<head>
-    <title>Pomodoro Timer</title>
-    <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
-    <script language="JavaScript" type="text/javascript" src="js/main.js"></script>
-</head>
+			<h2>Follow Me On Social Media</h2>
 
-<div class="fluid-container">
-    <h1 class="text-center">Pomodoro Timer</h1>
-    <div class="settings row">
-        <div class="col-md-6 col-sm-6 col-lg-6">
-            <p>
-                Break Length
-                <br>
-                <button class="break" id="breakSub">-</button>
-                <span class="break" id="breakTime">5</span>
-                <button class="break" id="breakAdd">+</button>
-            </p>
-        </div>
-        <div class="col-md-6 col-sm-6 col-lg-6">
-            <p>
-                Session Length
-                <br>
-                <button id="totSub">-</button>
-                <span id="totTime">25</span>
-                <button id="totAdd">+</button>
-            </p>
-        </div>
-    </div>
-    <div class="clock">
-        <p id="time-display">25:00</p>
-        <p id="break-text" class="break-text">
-          Break!
-        </p>
-        <div class="newton-cradle">
-            <div id="leftBall" class="cord">
-                <div class="ball"></div>
-            </div>
-            <div class="cord">
-                <div class="ball"></div>
-            </div>
-            <div class="cord">
-                <div class="ball"></div>
-            </div>
-            <div class="cord">
-                <div class="ball"></div>
-            </div>
-            <div class="cord">
-                <div class="ball"></div>
-            </div>
-            <div class="cord">
-                <div class="ball"></div>
-            </div>
-            <div id="rightBall" class="cord">
-                <div class="ball" id="first"></div>
-            </div>
-        </div>
-    </div>
-    <div class="controls text-center">
-        <button type="button" id="stop">Stop</button>
-        <button type="button" id="start">Start</button>
-        <button type="button" id="reset">Reset</button>
-    </div>
-
-  <audio id="notify">
-      <source src="assets/notification.mp3" type="audio/mpeg"/>
-      <source src="assets/notification.ogg" type="audio/ogg"/>
-    </audio>
-
-  <div class="keyShortcuts text-center">
-    <h3>Keyboard Shortcuts</h3>
-    <ul>
-      <li>Space start/stop the timer</li>
-      <li>ALT + R Reset</li>
-      <li>ALT + P Pomodoro</li>
-    </ul>
-  </div>
-    <p class="sig text-center">
-      Coded by 
-    </p>
-</div>
+			<div class="social">
+			<a href="https://twitter.com/traversymedia" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+				<a href="https://facebook.com/traversymedia" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+				<a href="https://github.com/bradtraversy" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+				<a href="https://www.linkedin.com/in/bradtraversy" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+			</div>
+		</section>
 
 
 ### Support or Contact
