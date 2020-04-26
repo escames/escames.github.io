@@ -27,7 +27,7 @@ function countDown(secs) {
 </head>
 <body>
 <input disabled type="submit" id="btn" value="Aguarde 50 segundos!"><!--texto inicial do botão-->
-<script type="text/javascript">countDown(60);<!--texto inicial do botão-->
+<script type="text/javascript">countDown(50);<!--texto inicial do botão-->
 </script>
 </body>
 
