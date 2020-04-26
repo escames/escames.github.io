@@ -21,7 +21,7 @@ Melhor organização da UNICAMP [ESF](http://limeira.esf.org.br/)
       <div id="filler"></div>
     </div>
 
-    <div id="buttons">
+   <div id="buttons">
       <button id="work">Work</button>
       <button id="shortBreak">Short Break</button>
       <button id="longBreak">Long Break</button>
